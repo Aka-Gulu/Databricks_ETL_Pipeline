@@ -22,5 +22,5 @@ This project implements a medallion architecture (bronze-silver-gold) to transfo
 
 ## 🏗️ Pipeline Architecture
 <p float="center">
-    <img src="https://github.com/Aka-Gulu/Databricks_ETL_Pipeline/Docs/Pipeline_Architecture.png" width="800">
+    <img src="Docs/Pipeline_Architecture.png" width="800">
 </p>
