@@ -1,6 +1,8 @@
 # Databricks_ETL_Pipeline
 
-![Databricks Workflow](docs/workflow_screenshot.png)
+<p float="center">
+    <img src="Docs/Pipeline_Architecture.png" width="800">
+</p>
 
 An end-to-end data pipeline processing San Francisco Fire Department call records from raw CSV files to analytical gold tables using Databricks and Delta Lake.
 
@@ -20,7 +22,12 @@ This project implements a medallion architecture (bronze-silver-gold) to transfo
 **Records**: ~5.3 million calls  
 
 
-## 🏗️ Pipeline Architecture
+## 🏗️ Job Dependencies & Sample outputs
 <p float="center">
-    <img src="Docs/Pipeline_Architecture.png" width="800">
+    <img src="Docs/Job_dependencies.png" width="800">
 </p>
+
+<p float="center">
+    <img src="Docs/Sample_gold_table_output.png" width="800">
+</p>
+
