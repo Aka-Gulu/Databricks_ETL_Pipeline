@@ -1,0 +1,38 @@
+{
+  "null_handling": {
+    "default": "fill_na",
+    "columns": {
+      "Call Number": "drop",
+      "city": "drop",
+      "box": "drop",
+      "Station Area": "drop",
+      "Zipcode of Incident": "drop",
+      "Original Priority": "drop"
+    }
+  },
+  "type_conversion": {
+    "Call Date": "date",
+    "Watch Date": "date",
+    "Received DtTm": "timestamp",
+    "Entry DtTm": "timestamp",
+    "Dispatch DtTm": "timestamp",
+    "Response DtTm": "timestamp",
+    "On Scene DtTm": "timestamp",
+    "Transport DtTm": "timestamp",
+    "Hospital DtTm": "timestamp",
+    "Available DtTm": "timestamp",
+    "Call Number": "integer",
+    "Incident Number": "integer",
+    "Zipcode of Incident": "integer",
+    "Station Area": "integer",
+    "Box": "integer",
+    "Original Priority": "integer",
+    "Priority": "integer",
+    "Final Priority": "integer",
+    "Number of Alarms": "integer",
+    "Unit sequence in call dispatch": "integer",
+    "Fire Prevention District": "integer",
+    "Supervisor District": "integer",
+    "ALS Unit": "boolean"
+  }
+}
