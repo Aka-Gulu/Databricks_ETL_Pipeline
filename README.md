@@ -19,22 +19,8 @@ This project implements a medallion architecture (bronze-silver-gold) to transfo
 **Size**: 1.77GB CSV (34 columns)  
 **Records**: ~5.3 million calls  
 
-**Key Fields**:
-- Call metadata: `Call Number`, `Incident Number`
-- Temporal data: `Call Date`, `Received DtTm`, `On Scene DtTm`
-- Location data: `Address`, `City`, `Zipcode`
-- Operational data: `Call Type`, `Priority`, `ALS Unit`
 
 ## 🏗️ Pipeline Architecture
-
-```mermaid
-flowchart LR
-    A[Kaggle\nCSV] -->|Download| B[(Bronze\nRaw Data)]
-    B -->|Clean &\nType Convert| C[(Silver\nStandardized)]
-    C -->|Aggregate &\nDimensional Model| D[(Gold\nAnalytics)]
-
-    style A fill:#FF6B6B,stroke:#333
-    style B fill:#FFD166,stroke:#333
-    style C fill:#06D6A0,stroke:#333
-    style D fill:#118AB2,stroke:#333
-```
+<p float="center">
+    <img src="https://github.com/Aka-Gulu/Databricks_ETL_Pipeline/Docs/Pipeline_Architecture.png" width="800">
+</p>
